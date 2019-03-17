@@ -1,0 +1,20 @@
+{
+  "name": "react1",
+  "version": "1.0.0",
+  "description": "Messenger",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "NODE_ENV=prod webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monk",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
