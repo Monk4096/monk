@@ -1,20 +1,33 @@
 {
-  "name": "react1",
+  "name": "react_13.02.19",
   "version": "1.0.0",
-  "description": "Messenger",
+  "description": "Messanger on React",
   "main": "index.js",
   "scripts": {
     "start": "webpack --mode development",
     "build": "NODE_ENV=prod webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "webpack-dev-server"
   },
-  "author": "Monk",
+  "author": "Ivan",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^4.29.6",
-    "webpack-dev-server": "^3.2.1"
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.0"
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   }
 }
